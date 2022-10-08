@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "php-crash-course",
+  "description": "Learning PHP Basics",
+  "author": "shawqicauses <shawqicauses@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "0.19.1",
+    "prettier": "2.7.1"
+  }
+}
