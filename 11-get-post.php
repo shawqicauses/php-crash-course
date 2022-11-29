@@ -17,6 +17,6 @@ if (isset($_POST["submit"])) {
     <input type="text" name="name" id="name" />
     <label for="age">Age:</label>
     <input type="number" name="age" id="age" />
-    <input type="submit" name="submit" value="Submit" />
+    <button type="submit" name="submit">Submit</button>
   </form>
 </body>
