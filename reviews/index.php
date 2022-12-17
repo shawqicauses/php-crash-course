@@ -9,7 +9,7 @@ if (isset($_GET["method"]) and isset($_GET["id"])) {
     $id = $_GET["id"];
     $sql = "SELECT id, reviewer_name, reviewer_email, review_body FROM reviews WHERE (id = $id)";
     $result = mysqli_query($connection, $sql);
-    $review = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    $reviews = mysqli_fetch_all($result, MYSQLI_ASSOC);
     $reviewer_name = $reviews[0]["reviewer_name"];
     $reviewer_email = $reviews[0]["reviewer_email"];
     $review_body = $reviews[0]["review_body"];
